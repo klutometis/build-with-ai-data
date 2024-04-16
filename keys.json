@@ -1,9 +1,9 @@
 {
     "alpaca": {
         "example-portfolio": {
-            "API_KEY": "********************",
-            "API_SECRET": "********************",
-            "sandbox": false
+            "API_KEY": "PKVFJW62BDSSBBWCPHQJ",
+            "API_SECRET": "nI7gp6lfRrQJqKzNKGY3vaQWaHeGDxxp1zTE2BTO",
+            "sandbox": true
         }
     },
     "binance": {
