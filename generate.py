@@ -62,6 +62,7 @@ def get_ema(start: str, ticker: str, polygon: RESTClient):
                 window=50,
                 series_type="close",
                 timestamp_gt=start,
+                limit=1000,
             ).values
         ]
     )
@@ -78,6 +79,7 @@ def get_ema(start: str, ticker: str, polygon: RESTClient):
                 window=200,
                 series_type="close",
                 timestamp_gt=start,
+                limit=1000,
             ).values
         ]
     )
@@ -101,6 +103,7 @@ def get_macd(start: str, ticker: str, polygon: RESTClient):
                 signal_window=9,
                 series_type="close",
                 timestamp_gt=start,
+                limit=1000,
             ).values
         ]
     ).set_index("date")
@@ -119,6 +122,7 @@ def get_rsi(start: str, ticker: str, polygon: RESTClient):
                 window=14,
                 series_type="close",
                 timestamp_gt=start,
+                limit=1000,
             ).values
         ]
     ).set_index("date")
@@ -129,12 +133,13 @@ def main(argv):
     polygon = RESTClient(params.POLYGON)
     start = date.today() - timedelta(days=365)
 
-    data = get_news(start, TICKER, polygon).join(
-        [
-            get_ema(start, TICKER, polygon),
-            get_macd(start, TICKER, polygon),
-            get_rsi(start, TICKER, polygon),
-        ],
+    news = get_news(start, TICKER, polygon)
+    ema = get_ema(start, TICKER, polygon)
+    macd = get_macd(start, TICKER, polygon)
+    rsi = get_rsi(start, TICKER, polygon)
+
+    data = news.join(
+        [ema, macd, rsi],
         how="outer",
     )
 
