@@ -1,17 +1,6 @@
 {
-    "2024-04-14": {
-        "news": [
-            "Forget the \"Fab Four\": These 3 Artificial Intelligence (AI) Stocks Are Magnificent Buys Today",
-            "A Once-in-a-Generation Investment Opportunity: 1 Warren Buffett and Cathie Wood Artificial Intelligence (AI) Stock to Buy Hand Over Fist Before It Surges 16%, According to 1 Wall Street Analyst"
-        ],
-        "ema_short": null,
-        "ema_long": null,
-        "macd_value": null,
-        "macd_signal": null,
-        "rsi": null
-    },
-    "2024-04-15": {
-        "news": [
+    "2024-04-15":{
+        "news":[
             "Why Investors Slammed the Brakes on Electric Vehicle and Related Stocks Monday",
             "Marks Cannot Sustain Rebound Amid High Bond Rates",
             "Huge News for Tesla Investors: 1 Billion Reasons to Keep an Eye on the Stock",
@@ -28,14 +17,14 @@
             "'Wow:' Elon Musk Stunned By Reminder Of How Tesla Bull's Optimistic 2021 Rivian Prediction 'Didn't Age Well' (CORRECTED)",
             "Tesla's Q1 US Sales Mainly Held Back By Very Model That Saved It From Bankruptcy Years Ago"
         ],
-        "ema_short": 183.01105119422766,
-        "ema_long": 210.28069262413007,
-        "macd_value": -3.6859520891206046,
-        "macd_signal": -3.948373945609264,
-        "rsi": 39.167398348527556
+        "ema_short":181.9953236964,
+        "ema_long":209.751631006,
+        "value":-4.5096685735,
+        "signal":-4.0606328712,
+        "rsi":36.4474043953
     },
-    "2024-04-16": {
-        "news": [
+    "2024-04-16":{
+        "news":[
             "Stocks Grapple With Geopolitical Pressures, Gold Eyes $2,400, Bitcoin Falls Below $62,000: What's Driving Markets Tuesday?",
             "What Lies Ahead of Electric Vehicle (EV) ETFs?",
             "Why Rivian Stock Bounced Back on Tuesday",
@@ -53,21 +42,29 @@
             "3 Artificial Intelligence (AI) Predictions That Undeniably Go Against the Grain",
             "'Not Good' For Tesla If It's True, Says Fund Manager, As New Report Says EV Maker Has Put Sub-$30K Vehicle On Hold"
         ],
-        "ema_short": 181.99312811153936,
-        "ema_long": 209.75072484270825,
-        "macd_value": -4.508694927699111,
-        "macd_signal": -4.059201527815926,
-        "rsi": 36.5576721800639
+        "ema_short":null,
+        "ema_long":null,
+        "value":null,
+        "signal":null,
+        "rsi":null
     },
-    "2024-04-17": {
-        "news": [
+    "2024-04-17":{
+        "news":[
             "Tesla's Cybertruck Outpaces Porsche Taycan In Q1 Despite Lagging Behind Ford's F-150 Lightning, Rivian R1T: Research Data",
             "Cathie Wood's Ark Laps Up $3.3M Worth Of Tesla As Stock Falls For 3rd Straight Session, Sheds Shares Of This Sports Betting Company"
         ],
-        "ema_short": null,
-        "ema_long": null,
-        "macd_value": null,
-        "macd_signal": null,
-        "rsi": null
+        "ema_short":null,
+        "ema_long":null,
+        "value":null,
+        "signal":null,
+        "rsi":null
+    },
+    "2024-04-14":{
+        "news":null,
+        "ema_short":183.0110511942,
+        "ema_long":210.2806926241,
+        "value":-3.6859520891,
+        "signal":-3.9483739456,
+        "rsi":39.1673983485
     }
 }
