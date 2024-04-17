@@ -84,7 +84,7 @@ def main(argv):
     logging.basicConfig(level=logging.INFO)
     polygon = RESTClient(params.POLYGON)
     today = datetime.date.today()
-    one_year_ago = today - datetime.timedelta(days=3)
+    one_year_ago = today - datetime.timedelta(days=365)
     current_date = one_year_ago
 
     data = {}
